@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/dikshitbonu-bit/AI-BankApp-DevOps.git
+    repoURL: https://github.com/dikshitbonu-bit/AI-BankApp-DevOps
     targetRevision: feat/gitops
     path: k8s
 
