@@ -5,13 +5,16 @@ metadata:
   namespace: argocd
 spec:
   project: default
+
   source:
     repoURL: https://github.com/dikshitbonu-bit/AI-BankApp-DevOps.git
     targetRevision: feat/gitops
     path: k8s
+
   destination:
     server: https://kubernetes.default.svc
     namespace: bankapp
+
   syncPolicy:
     automated:
       prune: true
