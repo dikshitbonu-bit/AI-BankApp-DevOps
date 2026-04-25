@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: bankapp-config-2
+  name: bankapp-config-1
   namespace: bankapp
 data:
   MYSQL_HOST: mysql-service
